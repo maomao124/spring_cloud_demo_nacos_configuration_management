@@ -1,0 +1,3 @@
+2022-07-15 22:46:14.379  INFO 8100 --- [main] m.eureka_server.EurekaServerApplication  : No active profile set, falling back to default profiles: default
+2022-07-15 22:46:15.532  WARN 8100 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-15 22:46:15.707  INFO 8100 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b3d66f41-ca38-3c9a-a2ea-5bff0745a6cd
