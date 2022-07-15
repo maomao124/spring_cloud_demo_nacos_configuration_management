@@ -27,10 +27,15 @@ public class TestController
     @Autowired
     private TestConfigurationProperties testConfigurationProperties;
 
+    /**
+     * Test test configuration properties.
+     *
+     * @return the test configuration properties
+     */
     @GetMapping("/test")
     public TestConfigurationProperties test()
     {
-        log.debug(testConfigurationProperties.toString());
+        log.info(testConfigurationProperties.toString());
         return testConfigurationProperties;
     }
 }
