@@ -55,7 +55,11 @@ logging:
 server:
   port: 8082
 
-
+configTests:
+  id: 555
+  name: "李四"
+  sex: "女"
+  age: 21
 
 mybatis:
   type-aliases-package: mao.user_service
